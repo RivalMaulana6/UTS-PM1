@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="16dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/titleText" android:text="Register"
+        android:textSize="24sp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ImageView android:id="@+id/imageView"
+        android:layout_width="100dp" android:layout_height="100dp" android:src="@mipmap/ic_launcher"/>
+    <EditText android:id="@+id/name" android:hint="Nama"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/email" android:hint="Email"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/registerBtn" android:text="Register"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>
